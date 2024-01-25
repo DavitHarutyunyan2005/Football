@@ -1,0 +1,89 @@
+
+
+.Football{
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Timer{
+    padding-top: 60px;
+}
+
+#goalAnimation {
+    position: absolute;
+    display: none;
+    font-size: 48px;
+    font-weight: bold;
+    color: #006eff; /* green color */
+    animation: goalAnimation 2s ease-out;
+}
+
+
+@keyframes goalAnimation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+
+.Start{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 34, 255, 0.184);
+    padding: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+#start{
+    display:flex;
+}
+
+#arrows{
+    width: 200px;
+    height: 200px;
+}
+
+#wasd{
+width: 200px;
+height: 200px;
+}
+
+#f{
+    height: 70px;
+    width: 70px;
+    padding: 8px;
+}
+
+#shift{
+    height: 70px;
+    width: 70px;
+    padding: 8px;
+}
+
+.f, .shift{
+    display: flex;
+}
+
+.right{
+    padding-left: 50px;
+}
+
+.left{
+    padding-right: 50px;
+}

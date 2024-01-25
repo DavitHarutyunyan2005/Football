@@ -1,0 +1,18 @@
+.scoreBoard{
+    display:flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.Ronaldo, .Messi{
+    padding-left: 20px;
+    /* margin: 10px; */
+
+}
+
+.Ronaldo img, .Messi img{
+    width: 80px;
+    height: 43px;
+}
+
+
